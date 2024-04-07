@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Contract {
-    private Department department;
-    private Worker worker;
+    private final Department department;
+    private final Worker worker;
     private List<HourContract> contractsList = new ArrayList<>();
 
 
